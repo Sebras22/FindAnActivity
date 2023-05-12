@@ -1,0 +1,112 @@
+#root {
+    margin: 0 auto;
+    text-align: center;
+    accent-color: rgb(94, 153, 235);
+    height: 100%;
+}
+
+.All {
+    font-family: "Josefin Sans", sans-serif;
+    top: 0px;
+    margin: 10px;
+}
+
+.Number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e272e55;
+    border-radius: 11px;
+}
+
+.inputNumber {
+    border: none;
+    border-radius: 11px;
+    padding: 7px 10px;
+    background-color: white;
+}
+
+img {
+    width: 1.5rem;
+}
+
+.Titre {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.search {
+    border-radius: 0px 11px 11px 0px;
+    background-color: white;
+    border: none;
+}
+
+.Typeof {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    background-color: #1e272e55;
+    border-radius: 11px;
+}
+
+.inputType {
+    padding: 7px 10px;
+    border-radius: 11px 0px 0px 11px;
+    border: none;
+    background-color: white;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.Clear {
+    border-radius: 11px;
+    background-color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    padding: 0px 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Clear:hover {
+    transform: scale(1.2);
+}
+
+.Result {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 2rem;
+    padding: 50px 0px;
+    backdrop-filter: blur(10px);
+}
+
+.Price {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    background-color: #1e272e55;
+    border-radius: 11px;
+}
+
+.Accessibility {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    background-color: #1e272e55;
+    border-radius: 11px;
+}
+
+.Error {
+    font-size: xx-large;
+    color: red;
+}
